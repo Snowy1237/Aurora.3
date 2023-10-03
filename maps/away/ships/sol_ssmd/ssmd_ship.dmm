@@ -5912,7 +5912,7 @@
 /obj/machinery/light/colored/blue{
 	dir = 1
 	},
-/obj/structure/sign/flag/visegrad{
+/obj/structure/sign/flag/sol{
 	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/dark,
@@ -6536,7 +6536,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/structure/sign/flag/visegrad{
+/obj/structure/sign/flag/sol{
 	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/dark,
@@ -7541,7 +7541,9 @@
 /obj/structure/closet/crate/bin{
 	name = "trashbin"
 	},
-/obj/structure/sign/flag/sol/large/south,
+/obj/structure/sign/flag/sol/large/south{
+	pixel_y = -32
+	},
 /obj/machinery/light{
 	inserted_light = /obj/item/light/tube/colored/blue;
 	icon_state = "tube_empty"
@@ -7715,7 +7717,7 @@
 /obj/structure/bed/stool/chair{
 	dir = 4
 	},
-/obj/structure/sign/flag/visegrad{
+/obj/structure/sign/flag/sol{
 	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/white,

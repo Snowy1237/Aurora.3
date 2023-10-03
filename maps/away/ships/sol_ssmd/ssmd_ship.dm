@@ -1,5 +1,5 @@
 /datum/map_template/ruin/away_site/ssmd_corvette
-	name = "SSMD Corvette"
+	name = "SSRM Corvette"
 	description = "A long-range reconnaissance corvette design in use by the Solarian Navy, the Uhlan-class is a relatively costly and somewhat uncommon ship to be seen in the Alliance's fleets, and is typically reserved for more elite (or at least better equipped and trained) units. Designed to operate alone or as part of a small task force with minimal support in unfriendly space, it is most commonly seen assigned to probing, surveillance, harassment, and strike operations. \
 	In spite of its small size, the Uhlan has relatively generous crew facilities and it is well-armed relative to its size and role, all made possible by extensive automation."
 	suffixes = list("ships/sol_ssmd/ssmd_ship.dmm")
@@ -10,84 +10,84 @@
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/ssmd_shuttle)
 
 /singleton/submap_archetype/ssmd_corvette
-	map = "SSMD Corvette"
+	map = "SSRM Corvette"
 	descriptor = "A long-range reconnaissance corvette design in use by the Solarian Navy, the Uhlan-class is a relatively costly and somewhat uncommon ship to be seen in the Alliance's fleets, and is typically reserved for more elite (or at least better equipped and trained) units. Designed to operate alone or as part of a small task force with minimal support in unfriendly space, it is most commonly seen assigned to probing, surveillance, harassment, and strike operations. \
 	In spite of its small size, the Uhlan has relatively generous crew facilities and it is well-armed relative to its size and role, all made possible by extensive automation."
 
 //areas
 /area/ship/ssmd_corvette
-	name = "SSMD Corvette"
+	name = "SSRM Corvette"
 	requires_power = TRUE
 
 /area/ship/ssmd_corvette/bridge
-	name = "SSMD Corvette Bridge"
+	name = "SSRM Corvette Bridge"
 
 /area/ship/ssmd_corvette/hangar
 	name = "SSMD Corvette Hangar"
 
 /area/ship/ssmd_corvette/starboardengine
-	name = "SSMD Corvette Starboard Engine"
+	name = "SSRM Corvette Starboard Engine"
 
 /area/ship/ssmd_corvette/portengine
-	name = "SSMD Corvette Port Engine"
+	name = "SSRM Corvette Port Engine"
 
 /area/ship/ssmd_corvette/synthroom
-	name = "SSMD Corvette Synthetic Room"
+	name = "SSRM Corvette Synthetic Room"
 
 /area/ship/ssmd_corvette/dorms
-	name = "SSMD Corvette Dorms"
+	name = "SSRM Corvette Dorms"
 
 /area/ship/ssmd_corvette/brig
-	name = "SSMD Corvette Brig"
+	name = "SSRM Corvette Brig"
 
 /area/ship/ssmd_corvette/starboardfoyer
-	name = "SSMD Corvette Starboard Foyer"
+	name = "SSRM Corvette Starboard Foyer"
 
 /area/ship/ssmd_corvette/francisca
-	name = "SSMD Corvette Francisca Gunnery Compartment"
+	name = "SSRM Corvette Francisca Gunnery Compartment"
 
 /area/ship/ssmd_corvette/grauwolf
-	name = "SSMD Corvette Grauwolf Gunnery Compartment"
+	name = "SSRM Corvette Grauwolf Gunnery Compartment"
 
 /area/ship/ssmd_corvette/bathroom
-	name = "SSMD Corvette Bathroom"
+	name = "SSRM Corvette Bathroom"
 
 /area/ship/ssmd_corvette/captain
-	name = "SSMD Corvette Captain's Office"
+	name = "SSRM Corvette Captain's Office"
 
 /area/ship/ssmd_corvette/storage
-	name = "SSMD Corvette Storage Compartment"
+	name = "SSRM Corvette Storage Compartment"
 
 /area/ship/ssmd_corvette/hangar
-	name = "SSMD Corvette Hangar"
+	name = "SSRM Corvette Hangar"
 
 /area/ship/ssmd_corvette/canteen
-	name = "SSMD Corvette Canteen"
+	name = "SSRM Corvette Canteen"
 
 /area/ship/ssmd_corvette/mechbay
-	name = "SSMD Corvette Mechbay"
+	name = "SSRM Corvette Mechbay"
 
 /area/ship/ssmd_corvette/medbay
-	name = "SSMD Corvette Medbay"
+	name = "SSRM Corvette Medbay"
 
 /area/ship/ssmd_corvette/cryo
-	name = "SSMD Corvette Cryogenics"
+	name = "SSRM Corvette Cryogenics"
 
 /area/ship/ssmd_corvette/nuke
-	name = "SSMD Corvette Reactor Compartment"
+	name = "SSRM Corvette Reactor Compartment"
 
 /area/ship/ssmd_corvette/portfoyer
-	name = "SSMD Corvette Port Foyer"
+	name = "SSRM Corvette Port Foyer"
 
 /area/shuttle/ssmd_shuttle
-	name = "SSMD Shuttle"
+	name = "SSRM Shuttle"
 	icon_state = "shuttle2"
 
 //ship stuff
 
 /obj/effect/overmap/visitable/ship/ssmd_corvette
-	name = "SSMD Corvette"
-	class = "SSMDV"
+	name = "SSRM Corvette"
+	class = "SAMV"
 	desc = "A long-range reconnaissance corvette design in use by the Solarian Navy, the Uhlan-class is a relatively costly and somewhat uncommon ship to be seen in the Alliance's fleets, and is typically reserved for more elite (or at least better equipped and trained) units. Designed to operate alone or as part of a small task force with minimal support in unfriendly space, it is most commonly seen assigned to probing, surveillance, harassment, and strike operations. \
 	In spite of its small size, the Uhlan has relatively generous crew facilities and it is well-armed relative to its size and role, all made possible by extensive automation."
 	icon_state = "corvette"
@@ -106,7 +106,7 @@
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_SMALL
 	initial_restricted_waypoints = list(
-		"SSMD Shuttle" = list("nav_hangar_ssmd")
+		"SSRM Shuttle" = list("nav_hangar_ssmd")
 	)
 
 	initial_generic_waypoints = list(
@@ -127,13 +127,13 @@
 	return skybox_image
 
 /obj/effect/shuttle_landmark/ssmd_corvette/nav1
-	name = "SSMD Corvette - Port Side"
+	name = "SSRM Corvette - Port Side"
 	landmark_tag = "nav_ssmd_corvette_1"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/ssmd_corvette/nav2
-	name = "SSMD Corvette - Port Side"
+	name = "SSRM Corvette - Port Side"
 	landmark_tag = "nav_ssmd_corvette_2"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
@@ -145,11 +145,11 @@
 
 //shuttle stuff
 /obj/effect/overmap/visitable/ship/landable/ssmd_shuttle
-	name = "SSMD Shuttle"
-	class = "SSMDV"
+	name = "SSRM Shuttle"
+	class = "SAMV"
 	designation = "Vizsla"
 	desc = "A modestly sized shuttle design used by the Solarian armed forces, the Destrier is well-armored but somewhat slow, and was explicitly designed to be as survivable as possible for operations during combat. Notably features a fast-deployment exosuit catapult."
-	shuttle = "SSMD Shuttle"
+	shuttle = "SSRM Shuttle"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
 	colors = list("#9dc04c", "#52c24c")
@@ -161,11 +161,11 @@
 
 /obj/machinery/computer/shuttle_control/explore/ssmd_shuttle
 	name = "shuttle control console"
-	shuttle_tag = "SSMD Shuttle"
+	shuttle_tag = "SSRM Shuttle"
 	req_access = list(access_sol_ships)
 
 /datum/shuttle/autodock/overmap/ssmd_shuttle
-	name = "SSMD Shuttle"
+	name = "SSRM Shuttle"
 	move_time = 90
 	shuttle_area = list(/area/shuttle/ssmd_shuttle)
 	current_location = "nav_hangar_ssmd"
@@ -176,7 +176,7 @@
 	defer_initialisation = TRUE
 
 /obj/effect/shuttle_landmark/ssmd_shuttle/hangar
-	name = "SSMD Shuttle Hangar"
+	name = "SSRM Shuttle Hangar"
 	landmark_tag = "nav_hangar_ssmd"
 	docking_controller = "ssmd_shuttle_dock"
 	base_area = /area/ship/ssmd_corvette
