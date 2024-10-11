@@ -448,3 +448,13 @@
 	. = ..()
 	mode = SYRINGE_INJECT
 	update_icon()
+
+/obj/item/reagent_containers/syringe/polysomnine
+	name = "Syringe (sedative)"
+	desc = "Contains strong and fast-acting sedatives. WARNING! Can cause liver damage!"
+	reagents_to_add = list(/singleton/reagent/polysomnine = 15)
+
+/obj/item/reagent_containers/syringe/polysomnine/Initialize()
+	. = ..()
+	mode = SYRINGE_INJECT
+	update_icon()
