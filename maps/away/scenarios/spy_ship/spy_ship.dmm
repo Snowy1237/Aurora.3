@@ -15,7 +15,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/open,
 /area/space)
 "cw" = (
 /obj/effect/floor_decal/industrial/outline/operations,
@@ -49,6 +49,10 @@
 /obj/item/storage/box/zipties,
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"eU" = (
+/obj/machinery/optable,
+/turf/simulated/floor/tiled/white,
+/area/space)
 "ff" = (
 /obj/machinery/door/airlock/highsecurity{
 	dir = 1;
@@ -64,7 +68,7 @@
 /area/space)
 "gh" = (
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
+/turf/simulated/open,
 /area/space)
 "gx" = (
 /obj/machinery/hologram/holopad/long_range,
@@ -146,12 +150,54 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/unsimulated/floor,
 /area/space)
+"nc" = (
+/obj/machinery/body_scanconsole{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"nf" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"ni" = (
+/obj/structure/table/rack,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"nr" = (
+/obj/structure/closet/walllocker/medical{
+	pixel_y = -32;
+	name = "Blood Locker"
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/sbs,
+/obj/item/reagent_containers/blood/sbs,
+/turf/simulated/floor/tiled/white,
+/area/space)
 "pb" = (
 /obj/machinery/ship_weapon/autocannon{
 	weapon_id = "Spy Ship Autocannon"
 	},
 /obj/structure/ship_weapon_dummy,
 /turf/template_noop,
+/area/space)
+"pc" = (
+/turf/simulated/open,
 /area/space)
 "pm" = (
 /obj/effect/floor_decal/industrial/outline/operations,
@@ -211,9 +257,6 @@
 "qd" = (
 /obj/structure/bed/stool/chair/office/bridge,
 /turf/simulated/floor/tiled/dark,
-/area/space)
-"qt" = (
-/turf/simulated/floor/tiled/white,
 /area/space)
 "qx" = (
 /obj/item/clothing/mask/gas/syndicate{
@@ -291,7 +334,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/open,
 /area/space)
 "uD" = (
 /turf/template_noop,
@@ -332,12 +375,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
-"vq" = (
-/obj/machinery/body_scanconsole{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/space)
 "vN" = (
 /obj/structure/ship_weapon_dummy/barrel,
 /turf/template_noop,
@@ -350,7 +387,6 @@
 /obj/structure/closet/syndicate{
 	name = "Special Equipment"
 	},
-/obj/item/storage/belt/medical/paramedic/combat/full,
 /obj/item/storage/box/flashbangs,
 /obj/item/gun/energy/net,
 /obj/item/gun/launcher/syringe/rapid,
@@ -369,6 +405,11 @@
 "wi" = (
 /obj/structure/ship_weapon_dummy,
 /turf/template_noop,
+/area/space)
+"wp" = (
+/obj/item/storage/firstaid/surgery,
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "wQ" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
@@ -498,11 +539,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
-/turf/simulated/floor/plating,
-/area/space)
-"AS" = (
-/obj/machinery/iv_drip,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/open,
 /area/space)
 "AT" = (
 /obj/effect/map_effect/window_spawner/full/shuttle/mercenary,
@@ -518,14 +555,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
-/area/space)
-"By" = (
-/obj/machinery/bodyscanner{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/outline/medical,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/open,
 /area/space)
 "BC" = (
 /obj/machinery/suit_cycler/engineering/prepared,
@@ -538,7 +568,10 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/open,
+/area/space)
+"EO" = (
+/turf/simulated/floor/tiled/white,
 /area/space)
 "Fo" = (
 /obj/effect/floor_decal/industrial/outline/operations,
@@ -567,6 +600,15 @@
 /obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
+"HN" = (
+/obj/machinery/vending/medical{
+	density = 0;
+	pixel_x = -1;
+	pixel_y = -32;
+	req_access = null
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "HT" = (
 /obj/machinery/door/airlock/command{
 	dir = 4;
@@ -580,10 +622,41 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/open,
+/area/space)
+"Jm" = (
+/obj/item/storage/belt/medical/paramedic/combat/full,
+/obj/structure/table/rack,
+/obj/item/storage/box/gloves{
+	pixel_x = -3
+	},
+/obj/item/storage/box/masks,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"JU" = (
+/obj/item/clothing/mask/breath/medical,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/tank/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/reagent_containers/inhaler/pneumalin,
+/obj/item/reagent_containers/inhaler/pneumalin,
+/obj/item/auto_cpr,
+/obj/item/auto_cpr,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/structure/closet/walllocker/medical/secure{
+	name = "Stabilization Kit";
+	pixel_x = 32;
+	req_access = null
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "Kp" = (
 /turf/simulated/floor/tiled/dark,
+/area/space)
+"KT" = (
+/obj/structure/bed/roller,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "LT" = (
 /obj/effect/floor_decal/industrial/outline/operations,
@@ -620,6 +693,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"Na" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "NB" = (
 /obj/machinery/computer/ship/engines/terminal{
 	dir = 8
@@ -629,6 +708,18 @@
 "OG" = (
 /obj/machinery/suit_cycler/syndicate/prepared,
 /turf/simulated/floor/tiled/dark,
+/area/space)
+"OH" = (
+/obj/structure/table/rack,
+/obj/item/storage/firstaid/o2{
+	pixel_x = -4
+	},
+/obj/item/storage/firstaid/sleekstab,
+/obj/item/storage/firstaid/large/combat,
+/obj/item/storage/firstaid/large/adv,
+/obj/item/storage/firstaid/radiation,
+/obj/item/storage/firstaid/fire,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "PJ" = (
 /obj/structure/railing/mapped{
@@ -640,8 +731,9 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/space)
-"Qb" = (
-/obj/structure/bed/roller,
+"Qp" = (
+/obj/structure/curtain/open/medical,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/white,
 /area/space)
 "QL" = (
@@ -649,6 +741,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
+/area/space)
+"Ro" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 2;
+	name = "Medbay"
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "RD" = (
 /obj/machinery/computer/ship/targeting/terminal{
@@ -660,7 +759,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/open,
 /area/space)
 "Sm" = (
 /obj/machinery/ammunition_loader/autocannon{
@@ -683,6 +782,13 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/full,
+/area/space)
+"Ub" = (
+/obj/machinery/door/airlock/medical{
+	name = "Surgical Suite";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "UX" = (
 /obj/machinery/computer/ship/helm/terminal{
@@ -729,6 +835,13 @@
 /obj/item/tank/jetpack/oxygen,
 /obj/item/tank/jetpack/oxygen,
 /turf/unsimulated/floor,
+/area/space)
+"Yv" = (
+/obj/machinery/bodyscanner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/medical,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "Zi" = (
 /obj/structure/table/rack,
@@ -32494,7 +32607,7 @@ uD
 uD
 uD
 uD
-uD
+wV
 uD
 uD
 uD
@@ -34550,7 +34663,7 @@ uD
 uD
 uD
 uD
-uD
+wV
 uD
 uD
 uD
@@ -95717,19 +95830,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
 uD
 uD
 uD
@@ -95974,19 +96087,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-qt
-qt
-qt
-qt
-qt
-qt
-qt
-uD
+zb
+nf
+eU
+wp
+zb
+Jm
+ni
+OH
+EO
+EO
+EO
+HN
+zb
 uD
 uD
 uD
@@ -96231,19 +96344,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-qt
-qt
-qt
-Qb
-AS
-Qb
-qt
-uD
+zb
+EO
+EO
+EO
+Ub
+EO
+EO
+EO
+KT
+nf
+KT
+EO
+zb
 uD
 uD
 uD
@@ -96488,19 +96601,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-qt
-qt
-qt
-Qb
-AS
-Qb
-qt
-uD
+zb
+Qp
+Qp
+Qp
+zb
+EO
+EO
+EO
+KT
+nf
+KT
+EO
+zb
 uD
 uD
 uD
@@ -96745,19 +96858,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-qt
-qt
-qt
-qt
-qt
-qt
-qt
-uD
+zb
+EO
+EO
+EO
+Ub
+EO
+EO
+EO
+EO
+EO
+EO
+EO
+zb
 uD
 uD
 uD
@@ -97002,19 +97115,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-qt
-qt
-qt
-vq
-qt
-vq
-qt
-uD
+zb
+nf
+eU
+wp
+zb
+EO
+EO
+JU
+nc
+EO
+nc
+EO
+zb
 uD
 uD
 uD
@@ -97259,19 +97372,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
 zb
-qt
-qt
 zb
-By
-qt
-By
-qt
-uD
+zb
+zb
+zb
+EO
+Ro
+zb
+Yv
+Na
+Yv
+nr
+zb
 uD
 uD
 uD
@@ -97785,7 +97898,7 @@ PL
 PL
 PL
 PL
-cw
+fE
 PL
 fE
 fE
@@ -98030,7 +98143,7 @@ zb
 zb
 zb
 zb
-Kp
+ah
 Kp
 Kp
 Kp
@@ -98040,12 +98153,12 @@ Kp
 zb
 Fo
 fE
-Fo
-PL
-LT
+fE
 PL
 fE
-Fo
+PL
+fE
+fE
 PL
 pm
 zb
@@ -98299,9 +98412,9 @@ PL
 PL
 PL
 PL
-Mn
+fE
 PL
-Fo
+fE
 fE
 PL
 fE
@@ -98818,7 +98931,7 @@ ig
 PL
 Fo
 fE
-pm
+fE
 zb
 hq
 Kp
@@ -99061,13 +99174,13 @@ VQ
 Zq
 zb
 Jh
-BQ
+pc
 gh
 Kp
 Kp
 zb
 fE
-Fo
+fE
 Fo
 PL
 TM
@@ -100086,7 +100199,7 @@ zb
 zb
 zb
 zb
-Kp
+ah
 Kp
 Kp
 Kp
@@ -100094,14 +100207,14 @@ Kp
 Kp
 Kp
 zb
-Fo
+fE
 Fo
 fE
 PL
 LT
 PL
-Gi
-Fo
+fE
+fE
 PL
 fE
 zb
@@ -100357,7 +100470,7 @@ PL
 PL
 Mn
 PL
-Fo
+fE
 fE
 PL
 bk
@@ -100857,19 +100970,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+Kp
+Kp
+Kp
+Kp
+zb
 uD
 uD
 uD
@@ -101114,19 +101227,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+zb
 uD
 uD
 uD
@@ -101371,19 +101484,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+zb
 uD
 uD
 uD
@@ -101628,19 +101741,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+zb
 uD
 uD
 uD
@@ -101885,19 +101998,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+zb
 uD
 uD
 uD
@@ -102142,19 +102255,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+zb
 uD
 uD
 uD
@@ -102399,19 +102512,19 @@ uD
 uD
 uD
 uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
-uD
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
+zb
 uD
 uD
 uD
